@@ -1,0 +1,36 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "selectAction": {
+        "type": "Action.Submit",
+        "associatedInputs": "none",
+        "title": "Ну?"
+    },
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Да, мы поболтали",
+            "data": {
+                "msteams": {
+                    "type": "imBack",
+                    "value": "Да, мы поболтали",
+                    "style": "positive"
+                }
+            },
+            "style": "positive"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Нет ещё",
+            "data": {
+                "msteams": {
+                    "type": "imBack",
+                    "value": "Нет ещё",
+                    "style": "default"
+                }
+            },
+            "style": "default"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Чат-бот \"Случайный собеседник\""
+    },
+    {
+      "type": "TextBlock",
+      "text": "Задайте параметры запуска бота",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Задать параметры",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "Дата начала ивента",
+            "wrap": true
+          },
+          {
+            "type": "Input.Date",
+            "id": "startDate"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Дата конца ивента",
+            "wrap": true
+          },
+          {
+            "type": "Input.Date",
+            "id": "endDate"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Тема",
+            "wrap": true
+          },
+          {
+            "type": "Input.Text",
+            "id": "comment",
+            "placeholder": "Add a comment",
+            "isMultiline": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Запустить"
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3"
+}

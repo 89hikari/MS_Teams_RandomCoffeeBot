@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "f11d38be-d6af-4b6f-a4cb-cb5959a41d08",
+  "packageName": "com.teams.sample.teamsconversationbot",
+  "developer": {
+    "name": "Vladislav Belousov",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "name": {
+    "short": "Random Coffee Bot",
+    "full": "Random Coffee Bot"
+  },
+  "description": {
+    "short": "This is the bot for MS Teams which can provide Random Coffee event to your team.",
+    "full": "This is the MS Teams bot which can provide the Random Coffee event for your team. Feel free to use it however you want."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "f11d38be-d6af-4b6f-a4cb-cb5959a41d08",
+      "scopes": [
+        "personal",
+        "groupchat",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "personal",
+            "groupchat",
+            "team"
+          ],
+          "commands": []
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}

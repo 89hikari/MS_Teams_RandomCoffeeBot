@@ -1,0 +1,69 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "version": "1.0.0",
+    "id": "f11d38be-d6af-4b6f-a4cb-cb5959a41d08",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "{baseUrl}",
+        "privacyUrl": "{baseUrl}/index.html#/privacy",
+        "termsOfUseUrl": "{baseUrl}/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "testest",
+        "full": "This field is not used"
+    },
+    "description": {
+        "short": "Short description of testest.",
+        "full": "Full description of testest."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "f11d38be-d6af-4b6f-a4cb-cb5959a41d08",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "welcome",
+                            "description": "Resend welcome card of this Bot"
+                        },
+                        {
+                            "title": "learn",
+                            "description": "Learn about Adaptive Card and Bot Command"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [],
+    "webApplicationInfo": {
+        "id": "{appClientId}",
+        "resource": "{webApplicationInfoResource}"
+    }
+}

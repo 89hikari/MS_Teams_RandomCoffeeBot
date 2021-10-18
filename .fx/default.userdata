@@ -1,0 +1,15 @@
+solution.localDebugTeamsAppId=470972ed-359e-4705-a1f9-5b828d439bb0
+solution.teamsAppTenantId=086541b0-f852-4ffd-b96d-1bf8029c3791
+fx-resource-aad-app-for-teams.local_clientSecret=crypto_721df487dd0295633ca97f7da675ea215304d6cc277614b921bce35528f28e8b2aa0de47b62b652cf25856be66a7393c92d3d86ed09f7354dac65462f609f2d82d424c07fceebd9e9ad389504f35e9454e982235ac19a4c74816f03ac2d3b6dd303dbe3d0f46318802928cdf5202c357c9d81037714a3fccc311b73fbe560197f1c9
+fx-resource-aad-app-for-teams.local_clientId=c8baec19-de15-4e99-8e02-ad5df84c869d
+fx-resource-aad-app-for-teams.local_objectId=c4b7d811-a622-4972-9040-2a4a3ad59682
+fx-resource-aad-app-for-teams.local_oauth2PermissionScopeId=2701405e-f8cd-40e6-9867-c2b4ab8453f9
+fx-resource-aad-app-for-teams.local_tenantId=086541b0-f852-4ffd-b96d-1bf8029c3791
+fx-resource-aad-app-for-teams.local_applicationIdUris=api://botid-f11d38be-d6af-4b6f-a4cb-cb5959a41d08
+fx-resource-local-debug.skipNgrok=false
+fx-resource-local-debug.localBotEndpoint=https://4bcb-178-20-177-148.ngrok.io
+fx-resource-local-debug.localAuthEndpoint=http://localhost:5000
+fx-resource-local-debug.localBotDomain=4bcb-178-20-177-148.ngrok.io
+fx-resource-bot.localBotPassword=crypto_1ae650553ba3e0f5ff69f4f5f7f13322bb2c73e89eeedc6e3da1bfb75db761de863be71577d33e48160f1a857a87bdfb11e1f9048b2ec454653ad7cba2abcf8f1316d3309eaebb5b35143e069e112d83aa81dae163f286fb16d7d3ed73df255e08fbfb40c37a998591179fb11a645b3bf32bbf6e369072c7dd809aff1a4c0778410d
+fx-resource-bot.localBotId=f11d38be-d6af-4b6f-a4cb-cb5959a41d08
+fx-resource-bot.localObjectId=f488b67d-d141-4487-919e-dea04658e013
